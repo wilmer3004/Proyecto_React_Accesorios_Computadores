@@ -1,5 +1,8 @@
-import React from "react";
+// Nav.js
+
+import React from 'react';
 import "./Nav.css"
+import { Link } from 'react-router-dom';
 
 const Nav = ({ items }) => {
     return (
@@ -11,12 +14,15 @@ const Nav = ({ items }) => {
                 <ul>
                     {items.map((item, index) => (
                         <li key={index}>
-                            <button>{item}</button>
+                                <Link to={`/${item.toLowerCase()}`} className={"data-button"}>
+                                <button>
+                                    {item}
+                                </button>
+                                </Link>
                         </li>
                     ))}
                 </ul>
             </div>
-
         </nav>
     );
 };
