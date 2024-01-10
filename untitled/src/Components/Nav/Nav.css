@@ -2,12 +2,11 @@ nav{
     background: linear-gradient(to right, #000000, #595959, #4f4e4e, #171717);
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding: 2px;
     min-height: 90px;
     margin-bottom: 50px;
     box-shadow: 2px 14px 8px #646363;
-    border-radius: 2px;
 
 }
 .title{
