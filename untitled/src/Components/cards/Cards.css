@@ -1,0 +1,35 @@
+.contenedor-cards{
+    width: 95%;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.contenedor-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 120px;
+
+}
+
+.contenedor-card {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-card img {
+    width: 200px;
+    height: 200px;
+}
+.contenedor-card p {
+    font-size: 18px;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+.contenedor-card .name-product{
+    font-size: 24px;
+    font-family: "Arial Rounded MT Bold", serif;
+    font-weight: bold;
+}

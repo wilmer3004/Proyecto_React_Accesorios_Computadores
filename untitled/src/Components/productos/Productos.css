@@ -1,0 +1,33 @@
+.contenedorproductos {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #ececec;
+}
+
+.contenedorproductos .contenedorp {
+    background: #ffffff;
+    min-width: 75vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorproductos .contenedorp h1{
+    font-size: 50px;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+.pagination{
+    margin-top: 80%;
+    display: flex;
+    gap: 2px;
+}
+.pagination button{
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    color: #ffffff;
+
+}

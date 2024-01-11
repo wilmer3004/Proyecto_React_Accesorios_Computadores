@@ -5,7 +5,7 @@ import Carrusel from "../carrusel/carrusel";
 import "./LocalPage.css";
 
 const LocalPage = () => {
-    const menuItems = ["Productos", "Contacto","Login"];
+    const menuItems = ["Productos","Login"];
 
     const carruselItems = [
         {
